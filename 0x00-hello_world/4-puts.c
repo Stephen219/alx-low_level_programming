@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- *main- this is the main entry point of this c program.
- * @description:
+ * main- this is the main entry point of this c program.
+ * @description
  * prints the stated staemn
  * @return the 0
  */
