@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
  *main- this is the main entry point of this c program.
+ * Description:
+ * prints the stated staemn
  * @return the 0
  */
 int main(void)
