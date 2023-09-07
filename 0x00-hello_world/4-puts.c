@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - this is the main entry point of this c program.
  * @description
  * prints the stated staemn
@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	/*
+	/**
 	 * prints the stated statement.
 	 */
 	puts("\"Programming is like building a multilingual puzzle");
