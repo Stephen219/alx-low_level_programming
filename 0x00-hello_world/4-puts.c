@@ -1,8 +1,9 @@
 #include <stdio.h>
 /*
- * main- this is the main entry point of this c program.
+ * main - this is the main entry point of this c program.
  * @description
  * prints the stated staemn
+ * Return: 0 (Success)
  * @return the 0
  */
 int main(void)
