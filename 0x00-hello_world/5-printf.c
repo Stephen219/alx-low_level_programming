@@ -7,5 +7,5 @@ int main(void)
 {	/**
 	  * the printf prints the given statement.
 	  */
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0); /* this thing returns 0 as int.*/ }
