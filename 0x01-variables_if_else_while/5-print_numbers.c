@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main - the entry point of the project.
- * Return: 0 (Succes)
- * the method uses a for loop to get all the required numbers
+ * main - entry point
+ * Return: 0 (success)
  */
-int main()
-	int i;
+int main(void)
 {
-	for (i = 0; 1 < 10 ; i++)
-	{
-		printf("%d", i);
+	int p = 28;
 
+	while (p <= 37)
+	{
+		putchar(p);
+		p++;
 	}
 	putchar('\n');
 	return (0);
