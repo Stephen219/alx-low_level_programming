@@ -1,8 +1,8 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
- * main - the main entry of the program
+ * main - entry of the program
  * Return: 0 (Success)
  */
 int main(void)
@@ -11,17 +11,22 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/*the if condition controring the output*/
-	if (n > 5)
+
+	int lastDigit = n % 10; /* Extract the last digit of n*/
+
+	printf("Last digit of %d is %d and is ", n, lastDigit);
+	if (lastDigit > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, n);
-	} else if (n == 0)
+		printf("greater than 5\n");
+	}
+	else if (lastDigit == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, n);
+		printf("0\n");
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n);
+		printf("less than 6 and not 0\n");
 	}
 	return (0);
 }
+
