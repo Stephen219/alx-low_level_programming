@@ -5,8 +5,9 @@
  * the method uses a for loop to get all the required numbers
  */
 int main(void)
+	int i;
 {
-	for (int i = 0; 1 < 10 ; i++)
+	for (i = 0; 1 < 10 ; i++)
 	{
 		printf("%d\n", i);
 	}
