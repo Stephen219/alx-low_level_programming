@@ -8,11 +8,12 @@
 int main(void)
 {
 	int n;
+	int lastDigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int lastDigit = n % 10; /* Extract the last digit of n*/
+	lastDigit = n % 10; /* Extract the last digit of n*/
 
 	printf("Last digit of %d is %d and is ", n, lastDigit);
 	if (lastDigit > 5)
