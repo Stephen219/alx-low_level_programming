@@ -1,7 +1,5 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
 /**
  * main - entry point of the program.
  * return: 0(Succes).
