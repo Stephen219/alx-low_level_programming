@@ -4,7 +4,7 @@
  * Return: 0 (Succes)
  * the method uses a for loop to get all the required numbers
  */
-int main(void)
+int main()
 	int i;
 {
 	for (i = 0; 1 < 10 ; i++)
