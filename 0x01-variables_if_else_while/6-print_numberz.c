@@ -1,18 +1,16 @@
 #include <stdio.h>
-
 /**
- * main - Entry point of the program
- * Return: Always 0 (Success)
- */
+ * main - entry point of the program.
+ * return: 0(Succes).
+*/
+
 int main(void)
 {
-    for (int i = 0; i <= 9; i++) 
-    {
-        putchar(i + '0'); 
-    }
+	for (int i = 0; i <= 9; i++)
+	{
+		putchar(i + '0');
+		putchar('\n');
+	}
+	return (0)
 
-    putchar('\n'); 
-
-    return (0);
 }
-
