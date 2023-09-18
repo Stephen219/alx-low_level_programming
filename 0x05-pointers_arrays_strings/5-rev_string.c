@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 /**
  * rev_string - the method that reverses our string.
  * Returns: void in a successiful event
