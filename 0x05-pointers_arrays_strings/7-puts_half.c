@@ -13,7 +13,7 @@ void puts_half(char *str)
 	{
 		case 0:
 			j= length  / 2;
-			for (i  = j; i != '\0';  i ++)
+			for (i  = j; str[i] != '\0';  i ++)
 			{
 				putchar(str[i]);
 			}
@@ -21,7 +21,7 @@ void puts_half(char *str)
 			break;
 		default:
 			j = (length - 1) / 2;
-			for (i  = j; i != '\0';  i ++)
+			for (i  = j; str[i] != '\0';  i ++)
 			{
 				putchar(str[i]);
 			}
