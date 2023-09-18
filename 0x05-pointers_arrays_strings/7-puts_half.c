@@ -8,7 +8,7 @@
 void puts_half(char *str)
 {
 	int length = strlen(str);
-	int i, j, k;
+	int i, j;
 	switch (length % 2)
 	{
 		case 0:
