@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * rev_string the method that reverses our string.
+ * rev_string - the method that reverses our string.
  * Returns: void in a successiful event
  * @s: this is the input string param to be reversed.
  */
