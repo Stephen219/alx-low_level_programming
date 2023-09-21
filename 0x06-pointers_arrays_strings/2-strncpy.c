@@ -3,9 +3,9 @@
 #include <string.h>
 
 /**
- * strncpy - finction that is copying the string.
+ * _strncpy - finction that is copying the string.
  * Return: pointer of the desti for a success
- * @dest the destination
+ * @dest: the destination
  * @src: the source
  *@n: the no of chars to be coppied
  */
