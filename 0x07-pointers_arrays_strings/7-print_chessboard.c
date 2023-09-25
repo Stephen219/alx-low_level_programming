@@ -5,7 +5,6 @@
  * print_chessboard - function that returns the chase the board
  * Return: void
  * @a: the rows
- * @size: columns
  */
 
 void print_chessboard(char (*a)[8])
