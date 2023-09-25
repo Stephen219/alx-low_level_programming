@@ -7,7 +7,8 @@
  * Return: dest pointer
  * @dest: destination
  * @src: source
- * @n: the size of the memory*/
+ * @n: the size of the memory
+ */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
