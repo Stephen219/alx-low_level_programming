@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 /**
  * _memset - the main function that fills the memories
  * Return: the pointer of the string
