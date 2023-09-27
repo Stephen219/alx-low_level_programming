@@ -5,10 +5,10 @@
  * _strlen_recursion - this is the function that returns the length
  * @s: the string
  */
-int l;
 
 int _strlen_recursion(char *s)
 {
+	int l;
 	if (*s)
 	{
 		if (*s != '\0')
