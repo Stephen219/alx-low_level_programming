@@ -2,26 +2,33 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * _sqrt_recursion - this is th efunction to find the sqrt    
+ * _sqrt_recursion - this is th efunction to find the sqrt
  * reserch on the function
  * Return: the sqrt
- * @n the number*/
+ * @n the number
+ */
 
 int _sqrt_recursion(int n)
-
 {
-	int m = sqrt(n);
-	int v = (int)m;
-	if (n == 0)
-	{
+	if (n < 0)
 		return (-1);
+	return (actual_sqrt_recursion(n, 0));
+}
 
-	}
-	else if (m != v)
-	{
+/**
+ * actual_sqrt_recursion - recurses to find the natural
+ * square root of a number
+ * @n: number to calculate the sqaure root of
+ * @i: iterator
+ *
+ * Return: the resulting square root
+ */
+int actual_sqrt_recursion(int n, int i)
+{
+	if (i * i > n)
 		return (-1);
-
-	}
-	return (m);
+	if (i * i == n)
+		return (i);
+	return (actual_sqrt_recursion(n, i + 1));
 }
 
