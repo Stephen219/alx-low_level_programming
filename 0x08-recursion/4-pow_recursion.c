@@ -9,6 +9,7 @@
 
 int _pow_recursion(int x, int y)
 {
+	int tem, sqr;
 	if (y < 0)
 	{
 
@@ -16,12 +17,12 @@ int _pow_recursion(int x, int y)
 	}
 	else if (y % 2 == 0)
 	{
-		int sqr = _pow_recursion(x, y / 2);
+		sqr = _pow_recursion(x, y / 2);
 		return (sqr * sqr);
 
 	
 	}
-	int tem = _pow_recursion(x, (y - 1) / 2 );
+	tem = _pow_recursion(x, (y - 1) / 2 );
 	return (base * tem * tem);
 
 }
