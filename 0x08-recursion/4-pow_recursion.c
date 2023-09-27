@@ -13,8 +13,14 @@ int _pow_recursion(int x, int y)
 
 	{
 		return (-1);
+	}else (y % 2 == 0)
+	{
+		int sqr = _pow_recursion(x, y / 2);
+		return (sqr * sqr);
 
+	
 	}
-	return (x * _pow_recursion(x, y - 1));
+	int tem = _pow_recursion(x, (y - 1) / 2 );
+	return (base * tem * tem);
 
 }
