@@ -3,7 +3,7 @@
 /**
  * main - the main func
  * @argc: the arg count
- * @agrv: the array of string args
+ * @argv: the array of string args
  * Return: 0 for success execution
  */
 int main(int argc, char *argv[])
