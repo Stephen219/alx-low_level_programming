@@ -13,27 +13,32 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *result = malloc(strlen(s1) + strlen(s2) + 1);
 
-	if (s1 == NULL) 
-	{
-		return (strdup(s2));
+	size_t len1 = (s1 != NULL) ? strlen(s1) : 0;
+	size_t len2 = (s2 != NULL) ? strlen(s2) : 0;
 
-	}else if (s2 == NULL)
-	{
-		return (strdup(s1));
-	} else if (s1 == NULL && s2 == NULL)
-	{
-		return (NULL);
-	}
-	
-	strcpy(result, s1);
-	strcat(result, s2);
+	char *result = malloc(len1 + len2 + 1);
+
+	if (s1 == NULL && s2 == NULL)
+        {
+                return (NULL);
+        }
+
+
 	if (result == NULL)
-	{
-		return (NULL);
+        {
+                return (NULL);
+        }
+
+	if (s1 != NULL)
+       	{
+		strcpy(result, s1);
 	}
-	
+	if (s2 != NULL)
+	{
+		strcat(result, s2);
+	}
+
 	return (result);
 	
 }
