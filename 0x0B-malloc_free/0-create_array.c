@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * create_arrray - this is the function that perfoms the task
+ * create_array - this is the function that perfoms the task
  * Return:  pointer to the array, or NULL if it fails
  * @size:  the size of the array
  * @c: members of the array
