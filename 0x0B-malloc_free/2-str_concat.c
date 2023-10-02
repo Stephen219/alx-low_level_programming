@@ -13,13 +13,22 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *result = malloc(strlen(s1) + strlen(s2) + 1);
-
-	 strcpy(result, s1);
-	strcat(result, s2);
-	if (result == NULL)
+	if (s1 == NULL) 
 	{
-		return (NULL);
+		return (s2);
+
+	}else if (s2 == NULL)
+	{
+		return (s1);
 	}
-	return (result);
+	else
+	{
+		char *result = malloc(strlen(s1) + strlen(s2) + 1);
+		strcpy(result, s1);
+		strcat(result, s2);
+		if (result == NULL)
+		{
+			return (NULL);
+		}
+		return (result);
 }
