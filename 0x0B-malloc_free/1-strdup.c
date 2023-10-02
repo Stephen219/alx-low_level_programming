@@ -14,7 +14,7 @@ char *_strdup(char *str)
 	char *dest = (char *)malloc(l + 1);
 
 
-	if (str ==NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 
@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	strcpy(str, dest);
+	strcpy(dest, str);
 	return (dest);
 
 }
