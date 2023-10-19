@@ -3,7 +3,7 @@
 /**
  * add_node - function that adds a node to the list
  * Return: the liked list
- * @head  pointer to a pointer
+ * @head:  pointer to a pointer
  * @str: to be added
  */
 
