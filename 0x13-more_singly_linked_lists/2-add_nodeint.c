@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_node - function that adds a node to the list
+ * add_nodeint - function that adds a node to the list
  * Return: the liked list
  * @head:  pointer to a pointer
- * @str: to be added
+ * @n: to be added
  */
 
 
