@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * binary_to_unit - converts binary to int
+ * binary_to_uint - converts binary to int
  * @b: byte string
- * Return: the converted byte*/
+ * Return: the converted byte
+ */
 
 
 
