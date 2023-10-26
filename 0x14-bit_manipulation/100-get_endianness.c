@@ -12,5 +12,5 @@ int get_endianness(void)
 	unsigned int value = 1;
 	char *byte = (char *)&value;
 
-	return (int)*byte;
+	return ((int)*byt)e;
 }
